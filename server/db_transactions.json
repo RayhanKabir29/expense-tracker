@@ -59,6 +59,36 @@
       "type": "expense",
       "amount": 100,
       "id": 10
+    },
+    {
+      "name": "Check",
+      "type": "income",
+      "amount": 100,
+      "id": 11
+    },
+    {
+      "name": "Check",
+      "type": "income",
+      "amount": 100,
+      "id": 12
+    },
+    {
+      "name": "Check",
+      "type": "expense",
+      "amount": 100,
+      "id": 13
+    },
+    {
+      "name": "As",
+      "type": "income",
+      "amount": 100,
+      "id": 14
+    },
+    {
+      "name": "asd",
+      "type": "expense",
+      "amount": 3,
+      "id": 15
     }
   ]
 }
