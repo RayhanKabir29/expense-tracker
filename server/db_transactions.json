@@ -1,94 +1,10 @@
 {
   "transactions": [
     {
-      "id": 1,
-      "name": "Salary from Google",
+      "name": "Salary",
       "type": "income",
-      "amount": 1000000
-    },
-    {
-      "id": 2,
-      "name": "Family Expenses",
-      "type": "expense",
-      "amount": 200000
-    },
-    {
-      "name": "My Expense",
-      "type": "income",
-      "amount": "300",
-      "id": 3
-    },
-    {
-      "name": "Add",
-      "type": "income",
-      "amount": "1200",
-      "id": 4
-    },
-    {
-      "name": "Add",
-      "type": "income",
-      "amount": "100",
-      "id": 5
-    },
-    {
-      "name": "Add",
-      "type": "income",
-      "amount": "100",
-      "id": 6
-    },
-    {
-      "name": "asd",
-      "type": "income",
-      "amount": "300",
-      "id": 7
-    },
-    {
-      "name": "bwe",
-      "type": "expense",
-      "amount": 100,
-      "id": 8
-    },
-    {
-      "name": "bwe",
-      "type": "expense",
-      "amount": 100,
-      "id": 9
-    },
-    {
-      "name": "bwe",
-      "type": "expense",
-      "amount": 100,
-      "id": 10
-    },
-    {
-      "name": "Check",
-      "type": "income",
-      "amount": 100,
-      "id": 11
-    },
-    {
-      "name": "Check",
-      "type": "income",
-      "amount": 100,
-      "id": 12
-    },
-    {
-      "name": "Check",
-      "type": "expense",
-      "amount": 100,
-      "id": 13
-    },
-    {
-      "name": "As",
-      "type": "income",
-      "amount": 100,
-      "id": 14
-    },
-    {
-      "name": "asd",
-      "type": "expense",
-      "amount": 3,
-      "id": 15
+      "amount": 35000,
+      "id": 1
     }
   ]
 }

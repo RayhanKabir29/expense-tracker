@@ -5,7 +5,7 @@ const Transaction = ({transaction}) => {
   const {name,amount,type} = transaction ||{};
     return (
         <div>
-            <li className={`transaction${type}`}>
+            <li className={`transaction ${type}`}>
             <p>{name}</p>
             <div className="right">
               <p>৳ {amount}</p>
