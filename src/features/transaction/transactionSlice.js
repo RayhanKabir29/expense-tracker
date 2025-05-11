@@ -20,14 +20,14 @@ export const fetchTransactions = createAsyncThunk(
     return transactions;
   }
 );
-export const createTransactions = createAsyncThunk(
-  "transaction/createTransactions",
+export const createTransaction = createAsyncThunk(
+  "transaction/createTransaction",
   async (data) => {
     const transaction = await postTransaction(data);
     return transaction;
   }
 );
-export const changeTransactions = createAsyncThunk(
+export const changeTransaction = createAsyncThunk(
   "transaction/changeTransaction",
   async ({ id, data }) => {
     const transaction = await editTransaction(id, data);
@@ -63,26 +63,26 @@ const transactionSlice = createSlice({
         state.error = action.error.message;
       })
 
-      .addCase(createTransactions.pending, (state) => {
+      .addCase(createTransaction.pending, (state) => {
         state.isError = false;
         state.isLoading = true;
       })
-      .addCase(createTransactions.fulfilled, (state, action) => {
+      .addCase(createTransaction.fulfilled, (state, action) => {
         state.isError = false;
         state.isLoading = false;
         state.transactions.push(action.payload);
       })
-      .addCase(createTransactions.rejected, (state, action) => {
+      .addCase(createTransaction.rejected, (state, action) => {
         state.isLoading = false;
         state.isError = true;
         state.error = action.error.message;
       })
 
-      .addCase(changeTransactions.pending, (state) => {
+      .addCase(changeTransaction.pending, (state) => {
         state.isError = false;
         state.isLoading = true;
       })
-      .addCase(changeTransactions.fulfilled, (state, action) => {
+      .addCase(changeTransaction.fulfilled, (state, action) => {
         state.isError = false;
         state.isLoading = false;
         const indexToUpdate = state.transactions?.findIndex(
@@ -90,7 +90,7 @@ const transactionSlice = createSlice({
         );
         state.transactions[indexToUpdate] = action.payload;
       })
-      .addCase(changeTransactions.rejected, (state, action) => {
+      .addCase(changeTransaction.rejected, (state, action) => {
         state.isLoading = false;
         state.isError = true;
         state.transactions = [];
