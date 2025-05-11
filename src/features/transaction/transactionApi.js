@@ -1,6 +1,6 @@
 import axios from "../../utils/axios";
 
-export const getTransaction=async()=>{
+export const getTransactions=async()=>{
     const res = await axios.get(`/transactions`);
     return res?.data;
 }
