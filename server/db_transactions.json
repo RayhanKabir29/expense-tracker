@@ -1,9 +1,9 @@
 {
   "transactions": [
     {
-      "name": "Salary",
-      "type": "income",
+      "name": "Salary test",
       "amount": 35000,
+      "type": "income",
       "id": 1
     },
     {
@@ -35,6 +35,12 @@
       "type": "expense",
       "amount": 1000,
       "id": 6
+    },
+    {
+      "name": "Salary From Office",
+      "type": "income",
+      "amount": 35000,
+      "id": 7
     }
   ]
 }
