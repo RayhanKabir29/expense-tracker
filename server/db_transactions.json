@@ -31,12 +31,6 @@
       "id": 5
     },
     {
-      "name": "Ex",
-      "type": "expense",
-      "amount": 1000,
-      "id": 6
-    },
-    {
       "name": "Salary From Office",
       "type": "income",
       "amount": 35000,
