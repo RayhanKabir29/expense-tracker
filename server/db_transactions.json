@@ -5,6 +5,36 @@
       "type": "income",
       "amount": 35000,
       "id": 1
+    },
+    {
+      "name": "Expense",
+      "type": "income",
+      "amount": 100,
+      "id": 2
+    },
+    {
+      "name": "Expense",
+      "type": "income",
+      "amount": 200,
+      "id": 3
+    },
+    {
+      "name": "ex",
+      "type": "expense",
+      "amount": 100,
+      "id": 4
+    },
+    {
+      "name": "Add",
+      "type": "income",
+      "amount": 100,
+      "id": 5
+    },
+    {
+      "name": "Ex",
+      "type": "expense",
+      "amount": 1000,
+      "id": 6
     }
   ]
 }
